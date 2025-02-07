@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Catégories - Neon Buttons</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>Département Génie Électrique</h1>
+
+    <div class="container">
+        <div>
+            <div class="btn btn-electronique" onclick="toggleSubButtons('electronique')">Électronique</div>
+            <div id="electronique" class="sub-buttons">
+                <a href="#">S3</a>
+                <a href="#">S4</a>
+                <a href="S5/title.html">S5</a>
+                <a href="S6/title.html">S6</a>
+            </div>
+        </div>
+
+        <div>
+            <div class="btn btn-automatique" onclick="toggleSubButtons('automatique')">Automatique</div>
+            <div id="automatique" class="sub-buttons">
+                <a href="#">S3</a>
+                <a href="#">S4</a>
+                <a href="#">S5</a>
+                <a href="#">S6</a>
+            </div>
+        </div>
+
+        <div>
+            <div class="btn btn-electrotechnique" onclick="toggleSubButtons('electrotechnique')">Électrotechnique</div>
+            <div id="electrotechnique" class="sub-buttons">
+                <a href="#">S3</a>
+                <a href="#">S4</a>
+                <a href="#">S5</a>
+                <a href="#">S6</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleSubButtons(id) {
+            let element = document.getElementById(id);
+            element.style.display =(element.style.display === "flex") ? "none" : "flex";
+        }
+    </script>
+
+</body>
+</html>
