@@ -182,7 +182,7 @@ function changerCouleur(input) {
     if (valeur < 10) {
         input.classList.add("pink");
         input.classList.remove("green", "red");
-    } else if (valeur >= 10 && valeur < 20) {
+    } else if (valeur >= 10 && valeur <= 20) {
         input.classList.add("green");
         input.classList.remove("pink", "red");
     } else {
