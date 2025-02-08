@@ -190,3 +190,39 @@ input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+/* Réduire la largeur de la colonne "Coif" */
+.coif {
+    width: 50px;
+    text-align: center;
+}
+
+/* Réduction des marges sur petits écrans */
+@media screen and (max-width: 768px) {
+    th, td {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    input {
+        width: 45px;
+    }
+
+    .coif {
+        width: 40px; /* Réduction de la largeur */
+    }
+}
+.pink {
+    color: pink;
+    border-color: red;
+}
+
+.green {
+    color: green;
+    border-color: green;
+}
+
+.red {
+    color: red;
+    border-color: red;
+}
+
