@@ -5,7 +5,7 @@ const modules = [
     { nom: "théorie de signal", coefficient: 2, image: "img/7.png", test: true },
     { nom: "méthode numérique", coefficient: 2, image: "img/13.png", test: true },
     { nom: "mesure", coefficient: 2, image: "img/12.png", test: true } ,  
-    { nom: "tp electronique 2 " ,coefficient: 1, image: "img/1.png", test: false },  
+    { nom: "tp electronique 2 " ,coefficient: 1, image: "img/7.png", test: false },  
     { nom: "tp methode numérique", coefficient: 1, image: "img/9.png", test: false } ,
     { nom: "tp logique", coefficient: 1, image: "img/10.png", test: false }, 
     { nom: "techniques d'expression", coefficient: 1, image: "img/6.png", test: false } ,
